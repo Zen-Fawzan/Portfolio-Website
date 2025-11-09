@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Header Is Added -->
+{% include 'head.html' %}
+
+<body>
+    <main>
+    <!-- Section 1: Intro -->
+        <section id="home">
+            <nav class="projects">
+                <a href="#"> <i class="fa fa-github" aria-hidden="true"> </i> Проекты </a>
+                <a href="{{ url_for('index') }}" class='lang'> En / Ru</a>
+            </nav>
+            <div class="intro">
+                <p> Миня Зовут Фарзан  </p>
+                <p> Начинающий Специалист По Кибербезопасности </p>
+            </div>
+            <p class="aboutme">
+                Меня зовут Фарзан, также известный как Зен. Я специализируюсь в области <br>
+                кибербезопасности и люблю сочетать технические знания с креативностью.<br>
+                Если хотите связаться со мной, можете <a class="linkedin" href="https://www.linkedin.com/in/farzan-ahangar-9513a42a1">написать</a> в любое время.
+
+            </p>
+        </section>
+        <!-- Section 2: Skills -->
+        <section id="skills">
+            <nav class="skills">
+                <a href="#"> <i class="fa fa-check-square" aria-hidden="true"></i> Навыки </a>
+            </nav>
+            <div class="statusbars">
+                <p class="network"> Networking <i class="fa fa-wifi" aria-hidden="true"></i> </p>
+                <div class="statusbar-1">
+                    <div class="statusbar-1-filled">
+                    </div>
+                </div>
+                <p class="linux"> Linux <i class="fa fa-linux" aria-hidden="true"></i> </p> 
+                <div class="statusbar-2">
+                    <div class="statusbar-2-filled">
+                    </div>
+                </div>
+                <p class="windows"> Windows <i class="fa fa-windows" aria-hidden="true"></i> </p> 
+                <div class="statusbar-3">
+                    <div class="statusbar-3-filled">
+                    </div>
+                </div>
+                <p class="python"> Python <i class="fa fa-code" aria-hidden="true"></i> </p>
+                <div class="statusbar-4">
+                    <div class="statusbar-4-filled">
+                    </div>
+                </div>
+                <p class="cisco"> Cisco <i class="fa fa-server" aria-hidden="true"></i> </p>
+                <div class="statusbar-5">
+                    <div class="statusbar-5-filled">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
